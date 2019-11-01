@@ -6,22 +6,9 @@ new Vue({
         y:0
     },
     methods: {
-        add:function(inc)
+        logName:function()
         {
-            this.age = this.age + inc;
-        },
-        subtract: function(dec)
-        {
-            this.age -= dec;
-        },
-        updateXY:function(event)
-        {
-            this.x = event.offsetX;
-            this.y = event.offsetY;
-        },
-        click()
-        {
-            alert('hi');
+            console.log('enter your name');
         }
 
     },
